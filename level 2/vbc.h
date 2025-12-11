@@ -1,5 +1,5 @@
-# ifndef VBCC_H
-# define VBCC_H
+# ifndef VBC_H
+# define VBC_H
 
 #include <stdio.h>
 #include <ctype.h>
@@ -21,5 +21,4 @@ typedef struct s_node
 t_node	*parse_expr(char **s);
 t_node	*parse_term(char **s);
 t_node	*parse_fact(char **s);
-
 # endif
